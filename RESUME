@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY PORTFOLIO</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p.double {border-style: double;}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: powderblue;;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+</style>
+</head><html>
+<head>
+<title>MY RESUME</title>     
+</head>
+<body>
+<img src="C:\Users\Compaq\Desktop\New folder (2)\Capture.PNG"Align ="right">
+<h1><b><font size="32" FACE="GEORGIA">Mukti Nanda</font></b></h1>
+<p><FONT SIZE="4" FACE="COMIC SANS MS">Address:WZ-417 Shiv Nagar,near Tilak Nagar,New Delhi</p>
+<p>E-mail:Muktin49@gmail.com</p>
+<p>Mobile:9899245614</p>
+<h2><FONT SIZE="6" FACE="ALGERIAN">Academic Qualification</FONT></h2>
+<table border=10>
+<tr>
+<th>Exam Appeared</th>
+<th>borad</th>
+<th>Year</th>
+<th>Percentage</th>
+</tr>
+<tr>
+<td>10th</td>
+<td>CBSE</td>
+<td>2016</td>
+<td>80</td>
+</tr>
+<tr>
+<td>12th</td>
+<td>CBSE</td>
+<td>2018</td>
+<td>75</td>
+</tr>
+</table>
+<h2><FONT SIZE="6" FACE=ALGERIAN">INSTITUTE AND COURSE</FONT></h2>
+<P>MANAV RACHNA INTERNATIONAL INSTITUTE OF RESEARCH AND STUDIES</P>
+<P>COURSE-BTECH IN COMPUTER SCIENCE WITH SPECIALISATION IN CYBER SECURITY</P>
+<p class="head"><FONT SIZE="6" FACE="ALGERIAN">Interests</FONT></p>
+  <ul>
+    <li>Drawing</li>
+    <li>Photography</li>
+    <li>Design</li>
+    <li>Programming</li>
+    <li>Computer Science</li>
+  </ul>
+  <p class="head"><FONT SIZE="6" FACE="ALGERIAN">Skills</FONT></p>
+  <ul>
+    <li>Web Design with HTML & CSS</li>
+     <li>cybersecurity and internet of things</li>
+      <li>C++,C,JAVA</li>
+  </ul>
+ <p class="head"><FONT SIZE="6" FACE="ALGERIAN">Extracurriculars</FONT></p>
+  <ul>
+    <li>Hackerrank</li>
+    <li>Upgrade</li>
+    <li>Coursera</li>
+  </ul>
+<h2><FONT FACE="ALGERIAN" SIZE="6">Achievements</FONT></h2>
+<p>I Have Won Many Matches in Badminton<br>
+      I Have a trophy for my Dancing also,as i have done many dance performances<br>
+      I am Good in Swimming<br>
+      Certificate on Cyber Security Foundation Proffesional Certificate<br>
+      Certificate on Cyber security and Internet of Things<br>
+    </p>
+<h3><FONT FACE="ALGERIAN" SIZE="6">Strengths and Areas of improvement</FONT></h2>
+<p>I am Punctual and dedicated towards my work<br>
+      I completes work in a  particular given time<br>
+</p>
+<p>I sometimes take risks in buisness<br>
+      
+      </p>
+<h3><b>Declaration</b></h3>
+<p>I hereby declare that all the information declared above is correct</p>
+</FONT>
+</body>
+</html>
